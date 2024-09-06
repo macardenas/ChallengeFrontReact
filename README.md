@@ -1,15 +1,24 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Bienvenido al proyecto React Challenge 2024!
 
-This project has been created using **webpack-cli**, you can now run
+Antes de iniciar el proyecto debes tener el backend para las solicitudes API REST
 
 ```
-npm run build
+https://github.com/macardenas/ChallengueBackendNode.git
+
 ```
+
+Este proyecto esta creado con webpack y react, para poder iniciarlo debes ejecutar:
+
+```
+npm run start
+```
+
+con este comando podras ver el proyecto en vivo en el puerto 4000
 
 or
 
 ```
-yarn build
+npm run start:dev
 ```
 
-to bundle your application
+Si lo haces de esta manera solo realizará el compilado del proyecto, debes luego manualmente abrir en tu navegador el archivo index.html
