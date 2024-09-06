@@ -9,3 +9,8 @@
     text-align: center;
     color: white;
 }
+
+.buttoncustomer {
+    margin: auto !important;
+    display: flex !important;
+}

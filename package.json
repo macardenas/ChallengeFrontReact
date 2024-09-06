@@ -4,8 +4,8 @@
   "description": "My webpack project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode=development",
-    "build": "webpack --mode=production"
+    "start": "webpack serve --port 4000",
+    "start:dev": "webpack --mode=development"
   },
   "keywords": [],
   "author": "",
