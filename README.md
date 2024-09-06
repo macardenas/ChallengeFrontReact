@@ -7,7 +7,7 @@ https://github.com/macardenas/ChallengueBackendNode.git
 
 ```
 
-Este proyecto esta creado con webpack y react, para poder iniciarlo debes ejecutar:
+Este proyecto esta creado con webpack y react basado en (Node 16), para poder iniciarlo debes ejecutar:
 
 ```
 npm run start
