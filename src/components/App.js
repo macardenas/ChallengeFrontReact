@@ -113,7 +113,7 @@ export const App = () => {
           </Form>
           {!encontrado && (
             <Alert key="danger" variant="danger">
-              No se encontró el resultado o el archi no es correcto
+              No se encontró el resultado o el archivo no es correcto
             </Alert>
           )}
 
