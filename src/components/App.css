@@ -14,3 +14,15 @@
     margin: auto !important;
     display: flex !important;
 }
+
+.titlesearch {
+    padding: 10px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.inputsearch {
+    width: 80% !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+}

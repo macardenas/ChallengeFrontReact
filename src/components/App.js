@@ -93,13 +93,14 @@ export const App = () => {
         <Tab eventKey="search" title="Búsqueda de data de CSV">
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>
+              <Form.Label className="titlesearch">
                 Ingrese el nombre del archivo que desea buscar
               </Form.Label>
               <Form.Control
                 type="text"
                 placeholder="test18.csv"
                 value={inputValue}
+                className="inputsearch"
                 onChange={handleInputChange}
               />
               <Button
@@ -118,7 +119,7 @@ export const App = () => {
           )}
           
           {encontrado && datafound && datafound.length > 0 && (   
-            <Table striped bordered hover>
+            <Table striped bordered hover  className="tablecustomer">
               <thead>
                 <tr>
                   <th>Filename</th>
