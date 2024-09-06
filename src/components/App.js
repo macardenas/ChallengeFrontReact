@@ -116,8 +116,8 @@ export const App = () => {
               No se encontró el resultado o el archivo no es correcto
             </Alert>
           )}
-
-          {encontrado && datafound.length > 0 && (
+          
+          {encontrado && datafound && datafound.length > 0 && (   
             <Table striped bordered hover>
               <thead>
                 <tr>
