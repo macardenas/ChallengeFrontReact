@@ -3,3 +3,9 @@
     margin: auto;
     margin-top: 60px;
 }
+
+.headertable {
+    background: #ce5050f0;
+    text-align: center;
+    color: white;
+}
